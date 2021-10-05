@@ -7,12 +7,11 @@ age = gets.chomp.to_i
 number_of_years = 0
 
 age.times do
-
 	number_of_years+=1
 	age-=1
     if (number_of_years == age)
-    	puts "Il y a #{number_of_years} ans, tu avais la moitié de l'âge que tu as aujourd'hui"
+    	puts "Il y a #{number_of_years} ans, tu avais la moitié de l'âge que tu as aujourd'hui."
     else 
-    	puts "il y a #{number_of_years} ans, tu avais #{age} ans"
+    	puts "il y a #{number_of_years} ans, tu avais #{age} ans."
     end
 end

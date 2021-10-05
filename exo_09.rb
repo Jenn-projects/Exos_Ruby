@@ -9,7 +9,7 @@ repetition_number = 2020 - birth_year
 puts "Ton année de naissance est #{birth_year}."
 
 repetition_number.times do
-   puts "Après, il y a eu #{birth_year+=1}"
+   puts "Après, il y a eu #{birth_year+=1}."
 end
 
-puts "Aujourd'hui, on est en 2021"
+puts "Aujourd'hui, on est en 2021."

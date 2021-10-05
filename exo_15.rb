@@ -14,7 +14,7 @@ end
 
 puts "Voici la pyramide :"
 
-if number_of_steps > 0 && number_of_steps < 25
+if number_of_steps > 0 && number_of_steps <= 25
 	number_of_steps.times do
     puts "#{step}"
     step << "#"

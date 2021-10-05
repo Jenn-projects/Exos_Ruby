@@ -2,5 +2,5 @@
 
 puts "Bonjour, c'est quoi ton prénom ?"
 print "> "
-user_name = gets.chomp
+user_name = gets.chomp.to_s
 puts "Bonjour, #{user_name}. Quel beau prénom ;) "

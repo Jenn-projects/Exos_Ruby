@@ -13,6 +13,6 @@ while (i <= 50)
     if i %2 == 0
       puts "jean.dupont.0#{i}@email.fr"
     end
-	i=i+1
+	i+=1
 end
 end

@@ -1,2 +1,2 @@
 # Exos_Ruby
-Des exercices en Ruby
+Des exercices à réaliser en Ruby.
