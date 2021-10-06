@@ -13,9 +13,7 @@ while number_of_steps > 25 || number_of_steps < 1 do
 	number_of_steps = gets.chomp.to_i
 end
 
-i = 1
-while i < number_of_steps
-    stock = (number_of_steps - i)/2
-    puts (space * stock) + (step * i)
-    i+=1
-end
+puts "Voici la pyramide :"
+
+  number_of_steps.times {|n| print " " * (number_of_steps - n)
+	puts "#" * (2 * n + 1)}  

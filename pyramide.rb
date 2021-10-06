@@ -14,14 +14,10 @@ end
 
 puts "Voici la pyramide :"
 
-if (number_of_steps > 0 && number_of_steps <= 25)
-
-    number_of_steps.times do
+    for count in (1..number_of_steps)
 		(number_of_steps-1).times do
-    print space
-	end
-    puts step 
-    step << "#"
+        print space
+	    end
+    puts step*count 
 	number_of_steps -=1
     end
-end
